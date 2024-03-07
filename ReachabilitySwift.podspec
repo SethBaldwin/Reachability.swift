@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ReachabilitySwift'
-  s.version      = '5.0.0'
+  s.version      = '5.2.0'
   s.module_name = 'Reachability'
   s.homepage     = 'https://github.com/ashleymills/Reachability.swift'
   s.authors      = {
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     :tag => 'v'+s.version.to_s
   }
   s.source_files = 'Sources/Reachability.swift'
-  s.resource_bundles = {"Kingfisher" => ["Sources/PrivacyInfo.xcprivacy"]}
+  s.resource_bundles = {"Reachability" => ["Sources/PrivacyInfo.xcprivacy"]}
   s.framework    = 'SystemConfiguration'
   s.ios.framework    = 'CoreTelephony'
 
